@@ -1,0 +1,46 @@
+
+
+ body {
+            background-color: #f0f0f0;
+            font-size: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            
+        }
+        
+
+
+        .container {
+            max-width: 600px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #weatherInfo {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            display: none;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
